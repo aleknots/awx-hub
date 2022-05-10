@@ -28,13 +28,13 @@
    "chksum_sha256": "b0538b0e51859b84f87b87a60bf73a0ae5d4d4aa642ddebc87facda45c94648d",
    "format": 1
   },
-  {
-   "name": ".gitignore",
-   "ftype": "file",
-   "chksum_type": "sha256",
-   "chksum_sha256": "52278bbc7128ff30345787e4559a2cfbaa62b60453c3002a85efddbcb33fad6d",
-   "format": 1
-  },
+//   {
+//    "name": ".gitignore",
+//    "ftype": "file",
+//    "chksum_type": "sha256",
+//    "chksum_sha256": "52278bbc7128ff30345787e4559a2cfbaa62b60453c3002a85efddbcb33fad6d",
+//    "format": 1
+//   },
   {
    "name": ".dpl",
    "ftype": "dir",

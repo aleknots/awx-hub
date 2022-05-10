@@ -49,7 +49,7 @@ class ExampleInventory(object):
                 ],
                 'vars': {
                     'ansible_user': 'admin',
-                    'ansible_ssh_private_key_file': '/home/aleon.chagas/AWX/templates/devops-cloud.pem',
+                    'ansible_ssh_private_key_file': '~/.ssh/devops-cloud.pem',
                     'example_variable': 'value'
                 },
             },
