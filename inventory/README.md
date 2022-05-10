@@ -25,7 +25,7 @@ $ ansible-inventory -i inventory/hosts.ini --list
     "_meta": {
         "hostvars": {
             "184.72.113.99": {
-                "ansible_ssh_private_key": "~/.ssh/jeffgeerling_aws.pem",
+                "ansible_ssh_private_key": "/home/aleon.chagas/AWX/templates/devops-cloud.pem",
                 "ansible_user": "admin"
             },
 ...
@@ -40,7 +40,7 @@ all:
     php:
       hosts:
         184.72.113.99:
-          ansible_ssh_private_key: ~/.ssh/jeffgeerling_aws.pem
+          ansible_ssh_private_key: /home/aleon.chagas/AWX/templates/devops-cloud.pem
           ansible_user: admin
 ...
 ```
