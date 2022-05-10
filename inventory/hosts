@@ -1,0 +1,10 @@
+[varnish]
+awx-demo-varnish01 ansible_host="54.226.30.220"
+
+[php]
+awx-demo-php01 ansible_host="34.201.138.103"
+awx-demo-php02 ansible_host="54.242.73.207"
+
+[all:children]
+varnish
+php
