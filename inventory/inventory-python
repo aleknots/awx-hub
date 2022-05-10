@@ -33,13 +33,13 @@ class ExampleInventory(object):
         return {
             'varnish': {
                 'hosts': [
-                    '54.83.174.103',
+                    '54.226.30.220',
                 ],
             },
             'php': {
                 'hosts': [
-                    '54.90.41.57',
-                    '54.237.49.224',
+                    '34.201.138.103',
+                    '54.242.73.207',
                 ],
             },
             'all': {
@@ -55,7 +55,7 @@ class ExampleInventory(object):
             },
             '_meta': {
                 'hostvars': {
-                    '54.83.174.103': {
+                    '54.226.30.220': {
                         'varnish_host_specific_var': 'foo'
                     },
                 },
