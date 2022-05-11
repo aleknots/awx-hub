@@ -1,6 +1,6 @@
 [varnish]
-54.226.30.220
+ec2-54-226-30-220.compute-1.amazonaws.com
 
 [php]
-34.201.138.103
-54.242.73.207
+ec2-34-201-138-103.compute-1.amazonaws.com
+ec2-54-242-73-207.compute-1.amazonaws.com
